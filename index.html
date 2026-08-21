@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<img src="images/Brand logo.jpeg" alt="Brand-logo" id="brand-logo">
+    <h1>The Shallom Brand Gallery</h1>
+    <p class="headings">...transforming Spaces, creating beauty</p>
+    <button data-category="all">All</button>
+    <button data-category="Beddings">Beddings</button>
+    <button data-category="Bags">Bags</button>
+    <button data-category="Curtains & Windows">Curtain, Windows & Blinds</button>
+
+    <div class="gallery">
+        <div class="gallery-item" data-category="Beddings"> <img src="images/Beddings 1.jpeg" alt="Beddings 1" ></div>
+         <div class="gallery-item" data-category="Beddings"> <img src="images/Beddings 2.jpeg" alt="Beddings 2"></div>
+          <div class="gallery-item" data-category="Bags"><img src="images/Bags 1.jpeg" alt="Bag 1"></div>
+           <div class="gallery-item" data-category="Bags"><img src="images/Bags 2.jpeg" alt="Bag 2"></div>
+            <div class="gallery-item" data-category="Curtains & Windows"><img src="images/windows 1.jpeg" alt="Curtains & Windows"></div>
+             <div class="gallery-item" data-category="Curtains & Windows"><img src="images/windows 2.jpeg" alt="Curtains & Windows"></div>
+    </div>
+    
+    <div class="lightbox">
+    
+    <button class="close">×</button>
+
+    <button class="prev">❮</button>
+
+    <img class="lightbox-image" src="" alt="">
+
+    <button class="next">❯</button>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
